@@ -37,6 +37,10 @@
 @import "_config/variables";
 
 @import "_config/mixins";
+//TEST
+
+@import "mes_variables";
+
 
 // Core Libraries
 @import "_library/base";         // basic styles
@@ -64,5 +68,3 @@
 @import "components/alerts";     // alerts styles
 
 @import "main";
-@import "_mes_variables.scss";
-@import "_mes_styles.scss";

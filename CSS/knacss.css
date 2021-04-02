@@ -462,7 +462,7 @@ body {
   font-size: 1.4rem;
   background-color: #fff;
   color: #212529;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Courier New, Comic Sans MS, serif";
   line-height: 1.5;
 }
 
@@ -2457,7 +2457,7 @@ progress {
 /* preferably use <button> for buttons !*/
 /* use .btn-- or .button-- classes for variants */
 /* line 7, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/components/_buttons.scss */
-.btn,
+.btn, .btn-round,
 .button,
 [type="button"],
 button, .btn--primary,
@@ -2467,7 +2467,7 @@ button, .btn--primary,
 .button--warning, .btn--danger,
 .button--danger, .btn--inverse,
 .button--inverse, .btn--ghost,
-.button--ghost {
+.button--ghost, .btn-round--10, .btn-round--15, .btn-round--20 {
   display: inline-block;
   padding: 1rem 1.5rem;
   cursor: pointer;
@@ -2488,7 +2488,7 @@ button, .btn--primary,
 }
 
 /* line 33, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/components/_buttons.scss */
-.btn:focus,
+.btn:focus, .btn-round:focus,
 .button:focus,
 [type="button"]:focus,
 button:focus {
@@ -3235,6 +3235,85 @@ footer {
 /* line 22, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/_main.scss */
 footer {
   background-color: #ced4da;
+}
+
+/* line 26, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/_main.scss */
+.bg--primary {
+  background-color: #13d5d8;
+  border: solid 30px #074a4b;
+}
+
+/* line 33, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/_main.scss */
+.bg--warning {
+  background-color: #F0AD4E;
+  border: solid 30px #985f0d;
+}
+
+/* line 41, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/_main.scss */
+.bg--primary {
+  background-color: #13d5d8;
+  border: solid 20px #074a4b;
+}
+
+/* line 41, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/_main.scss */
+.bg--success {
+  background-color: #2a5c03;
+  border: solid 20px black;
+}
+
+/* line 41, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/_main.scss */
+.bg--info {
+  background-color: #130ede;
+  border: solid 20px #07054e;
+}
+
+/* line 41, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/_main.scss */
+.bg--warning {
+  background-color: #F0AD4E;
+  border: solid 20px #985f0d;
+}
+
+/* line 41, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/_main.scss */
+.bg--danger {
+  background-color: #D9534F;
+  border: solid 20px #761c19;
+}
+
+/* line 41, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/_main.scss */
+.bg--inverse {
+  background-color: #333;
+  border: solid 20px black;
+}
+
+/* line 41, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/_main.scss */
+.bg--ghost {
+  background-color: transparent;
+  border: solid 20px rgba(0, 0, 0, 0);
+}
+
+/* line 48, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/_main.scss */
+.btn-round {
+  border-radius: 10%;
+}
+
+/* line 59, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/_main.scss */
+.btn-round {
+  border-radius: 5px;
+}
+
+/* line 62, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/_main.scss */
+.btn-round--10 {
+  border-radius: 10px;
+}
+
+/* line 65, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/_main.scss */
+.btn-round--15 {
+  border-radius: 15px;
+}
+
+/* line 68, ../../../../../Users/Mathis/Desktop/MyDigitalSchool/3AW/Intégration WEB/30:03:21/mds_b3_web_integration/sass/_main.scss */
+.btn-round--20 {
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=knacss.css.map */
